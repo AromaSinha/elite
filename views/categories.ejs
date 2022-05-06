@@ -1,0 +1,31 @@
+<%-include('admin-header')%>
+<!-- ======= Breadcrumbs ======= -->
+<div class="breadcrumbs">
+  <div class="container">
+
+    <div class="d-flex justify-content-between align-items-center">
+      <h2>Services</h2>
+      
+    </div>
+
+  </div>
+</div><!-- End Breadcrumbs -->
+    
+<h1>
+    hi</h1>
+    
+    <h2><%= service.title %></h2>
+    <h2><%= service.description %></h2>
+    <% service.categories.forEach(ser=>{%>
+    <h2><%= ser.title %></h2>
+    <h2><%= ser.description %></h2>
+    <h2><%= ser.price %></h2>
+    <%})%>
+    
+   
+
+</main>
+ 
+
+</body>
+</html>
